@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --c-white: hsl(0, 100%, 100%);
+  --c-black: hsl(0, 0%, 0%);
+  --c-gray-400: hsl(207, 23%, 72%);
+  --c-gray-100: hsl(208, 28%, 91%);
+  --c-blue-950: hsl(192, 100%, 9%);
+  --c-pink-400: hsl(322, 100%, 66%);
+  --c-purple-700: hsl(257 40% 49%);
+  --c-magenta-400: hsl(300 69% 71%);
+  --gradient-1: linear-gradient(
+    90deg,
+    hsl(322, 100%, 66%),
+    hsl(265, 100%, 66%)
+  );
+  --gradient-2: linear-gradient(
+    90deg,
+    hsl(265, 100%, 66%),
+    hsl(322, 100%, 66%)
+  );
+  --gradient-3: linear-gradient(
+    90deg,
+    hsl(192, 100%, 49%),
+    hsl(210, 100%, 99%)
+  );
+  --gradient-4: linear-gradient(90deg, hsl(47, 94%, 68%), hsl(322, 100%, 66%));
+}
+.text-preset-1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; /* SemiBold (because of your @font-face) */
+  font-size: calc(40 / 16 * 1rem);
+  line-height: 1.25;
+  letter-spacing: calc(0 / 16 * 1rem);
+}
+.text-preset-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700; /* SemiBold (because of your @font-face) */
+  font-size: calc(24 / 16 * 1rem);
+  line-height: 1.25;
+  letter-spacing: calc(0 / 16 * 1rem);
+}
+.text-preset-3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: calc(18 / 16 * 1rem);
+  line-height: 1.5;
+  letter-spacing: calc(0 / 16 * 1rem);
+}
+.text-preset-4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: calc(18 / 16 * 1rem);
+  line-height: 1.5;
+  letter-spacing: calc(0 / 16 * 1rem);
+}
+.text-preset-5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: calc(16 / 16 * 1rem);
+  line-height: 1.5;
+  letter-spacing: calc(0 / 16 * 1rem);
+}
+.text-preset-6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: calc(12 / 16 * 1rem);
+  line-height: 1.5;
+  letter-spacing: calc(0 / 16 * 1rem);
+}
