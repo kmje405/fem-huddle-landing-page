@@ -144,7 +144,6 @@ Areas I want to continue focusing on in future projects:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor -
-  [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website -
+  [Kevin Jones-Eastland | Eastland Jones Creative](https://eastlandjones.com/)
+- Frontend Mentor - [@kmje405](https://www.frontendmentor.io/profile/kmje405)
